@@ -1,0 +1,33 @@
+.header {
+  box-sizing: border-box;
+  margin: 0 20px;
+  border-bottom: 1px solid rgba(50, 50, 50, 0.3);
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__menu {
+
+}
+
+.header__menu-list {
+  margin: 0; padding: 0;
+  list-style: none;
+
+
+}
+
+.header__menu-element {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  display: inline-flex;
+  padding: 12px 10px;
+  margin: 0 20px 0 0;
+  align-items: center;
+}
+.header__menu-element:last-of-type {
+  margin: 0;
+}
