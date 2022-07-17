@@ -1,0 +1,4 @@
+.header__menu-element_active {
+  border-bottom: 1px solid rgba(50, 50, 50, 1);
+  margin-bottom: -1px;
+}
