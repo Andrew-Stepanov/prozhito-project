@@ -21,4 +21,11 @@
     padding: 14px 10px;
     min-width: 110px;
   }
+  .header__menu-element:last-of-type {
+    margin: 0 20px 0 0;
+  }
+  .header__menu-element:hover {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
 }
