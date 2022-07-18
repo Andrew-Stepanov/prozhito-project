@@ -1,6 +1,7 @@
 @font-face {
   src:
-      url(../fonts/Прожито_Шрифт.otf) format('otf');
+    url(../fonts/Прожито_Шрифт.woff2) format('woff2'),
+    url(../fonts/Прожито_Шрифт.otf) format('otf');
   font-family: 'WF';
   font-style: normal;
   font-weight: 400;
