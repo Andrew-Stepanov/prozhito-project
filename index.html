@@ -1,13 +1,140 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/index.css">
-  <title>Главная страница</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Главная страница</title>
 </head>
-<body>
+
+<body class="page">
+
+    <header class="header">
+        <img class="header__logo" src="" alt="">
+    </header>
+
+    <main class="content">
+
+        <section class="description">
+
+            <h1 class="description__title">Центр «Прожито» собирает, описывает и публикует документы личного происхождения и разрабатывает исследовательские инструменты для работы с ними. Материалы публикуются и описываются силами участников-волонтёров, к сообществу которых может присоединиться
+                каждый.
+            </h1>
+
+            <div class="description__menu">
+                <div class="description__menu-card">
+                    <h2 class="description__menu-card-title">Передать документы</h2>
+                    <p class="description__menu-card-subtitle">Передайте в «Прожито» копии документов из семейного архива, чтобы сделать их доступнее исследователям и читателям</p>
+                    <div class="description__menu-card-link">
+                        <a class="description__menu-card-text link" href="">Подробнее</a>
+                        <button type="button" aria-label="link" class="description__menu-link link" href=""></button>
+                    </div>
+                </div>
+
+                <div class="description__menu-card">
+                    <h2 class="description__menu-card-title">Стать волонтёром</h2>
+                    <p class="description__menu-card-subtitle">Вы можете помочь нашему делу — для работы с документами нужен компьютер и несколько свободных часов в неделю</p>
+                    <div class="description__menu-card-link">
+                        <a class="description__menu-card-text link" href="">Узнать больше</a>
+                        <button type="button" aria-label="link" class="description__menu-link link" href=""></button>
+                    </div>
+                </div>
+
+                <div class="description__menu-card">
+                    <h2 class="description__menu-card-title">Дневники и воспоминания</h2>
+                    <p class="description__menu-card-subtitle">Мы собрали тексты опубликованных дневников и воспоминаний и сделали по ним расширенный поиск</p>
+                    <div class="description__menu-card-link">
+                        <a class="description__menu-card-text link" href="">Ознакомиться</a>
+                        <button type="button" aria-label="link" class="description__menu-link link" href=""></button>
+                    </div>
+                </div>
+
+                <div class="description__menu-card">
+                    <h2 class="description__menu-card-title">Работа с архивом</h2>
+                    <p class="description__menu-card-subtitle">Как устроен наш архив и поиск по сохранённым документам</p>
+                    <div class="description__menu-card-link">
+                        <a class="description__menu-card-text link" href="">Перейти к архиву</a>
+                        <button type="button" aria-label="link" class="description__menu-link link" href=""></button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="description__banner">
+                <button type="button" aria-label="close" class="description__banner-close link"></button>
+                <h3 class="description__banner-title">СПЕЦПРОЕКТ БЛОКАДА</h3>
+                <p class="description__banner-subtitle">Исследование блокадных дневников</p>
+            </div>
+
+        </section>
+
+
+        <section class="diary">
+            <h1 class="diary__title">Материалы</h1>
+            <div class="diary__container">
+
+                <div class="diary__card">
+                    <button type="button" aria-label="link" class="diary__link link" href="">НУЖЕН НАБОРЩИК</button>
+                    <h3 class="diary__subtitle">Артамонов <br /> Виктор</h3>
+                    <img class="diary_photo" src="/images/image.png">
+                    <p class="diary__text">Петербургский краевед и педагог. Нам необходимо набрать 20 рукописных тетрадей </p>
+                </div>
+
+                <div class="diary__card">
+                    <button type="button" aria-label="link" class="diary__link link" href="">НУЖНА СВЕРКА</button>
+                    <h3 class="diary__subtitle">Анонимный блокадный <br /> дневник</h3>
+                    <img class="diary_photo" src="/images/nophoto.svg">
+                    <p class="diary__text">Музей Ахматовой передал нам для работы рукопись анонимного преподавателя ФЗУ, ставшего свидетелем блокады Ленинграда</p>
+                </div>
+
+                <div class="diary__card">
+                    <button type="button" aria-label="link" class="diary__link link" href="">НОВЫЕ МАТЕРИАЛЫ</button>
+                    <h3 class="diary__subtitle">Родоман <br /> Борис</h3>
+                    <img class="diary_photo" src="/images/rodomon.png">
+                    <p class="diary__text">Документы из домашнего архива географа: переписка, дневники и материалы для его научных статей
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="search">
+            <img class="search__photo" src="/images/search_editor.png">
+            <div class="search__card">
+                <h2 class="search__title">Ищем редактора для дневника</h2>
+                <p class="search__text">«Отец мой, Георгий Васильевич Антипов, из богатой семьи. У его отца и деда были участки леса, земли. Имел мой дед, Василий Кузьмич, лавку, в которой торговал бакалеей и красным товаром, и, конечно, занимался крестьянством, т.е. земледелием.
+                    Жили они богато. Дети у дедушки Василия были все грамотные, и земледелием занимались неохотно».</p>
+                <div class="search__buttons">
+                    <button type="button" aria-label="link" class="search__goto-button link" href="">Перейти к материалу<img class="search__arrow" src="/images/arrow.svg"></button>
+                    <button type="button" aria-label="link" class="search__contact-button link" href="">Оставить заявку<img class="search__arrow" src="/images/arrow.svg"></button>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="special-projects">
+            <h1 class="special-projects__title"></h1>
+            <div class="special-projects__container">
+                <div class="special-projects__item">
+                    <img class="item-image" src="/images/blokada_perm.png">
+                    <h3 class="item-title">«Прожито» в Перми</h3>
+                    <p class="item-text">Проект осуществляет поиск и копирование документов в пермских государственных и семейных архивах для того, чтобы собрать цифровую народную коллекцию документов по истории города и края</p>
+                    <p class="item-date">13 декабря 2021</p>
+                </div>
+                <div class="special-projects__item">
+                    <img class="item-image" src="/images/blokada.png">
+                    <h3 class="item-title">Блокада</h3>
+                    <p class="item-text">В условиях катастрофического голода, холода, вражеских бомбардировок и обстрелов сотни тысяч людей оказались заперты в городе. У многих из них был доступ к бумаге и чернилам, и некоторые начали вести дневники.</p>
+                    <p class="item-date">13 декабря 2021</p>
+                </div>
+            </div>
+            <button type="button" aria-label="link" class="special-projects__link link" href="">Все спецпроекты</button>
+        </section>
+
 
 </body>
+
 </html>
