@@ -1,3 +1,11 @@
+@media screen and (max-width: 1100px) {
+    . {}
+}
+
+@media screen and (max-width: 680px) {
+    . {}
+}
+
 .page {
     max-width: 1440px;
     min-height: 100vh;
@@ -80,16 +88,33 @@
     grid-template-columns: repeat(auto-fill, minmax(562px, 1fr));
     margin: 0 auto;
     padding: 0;
-    justify-items: center;
-    justify-content: center;
     margin-bottom: 164px;
+}
+
+@media screen and (max-width: 1100px) {
+    .description__menu {
+        margin-bottom: 28px;
+        grid-template-columns: repeat(auto-fill, minmax(362px, 1fr));
+        column-gap: 12px;
+        row-gap: 24px;
+        margin-bottom: 36px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .description__menu {
+        margin-bottom: 93px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-bottom: 84px;
+    }
 }
 
 .description__menu-card {
     display: flex;
     flex-direction: column;
     margin: 0;
-    padding: 0;
     padding: 32px;
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -97,6 +122,23 @@
     width: 498px;
     height: 212px;
     border: 1px solid rgba(50, 50, 50, 0.3);
+}
+
+@media screen and (max-width: 1100px) {
+    .description__menu-card {
+        width: 362px;
+        height: 212px;
+        padding: 28px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .description__menu-card {
+        width: 336px;
+        height: 184px;
+        padding: 12px;
+        margin-bottom: 12px;
+    }
 }
 
 .description__menu-card-link {
@@ -120,6 +162,20 @@
     color: #323232;
 }
 
+@media screen and (max-width: 1100px) {
+    .description__menu-card-title {
+        font-size: 24px;
+        line-height: 29.71px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .description__menu-card-title {
+        font-size: 26px;
+        line-height: 32.19px;
+    }
+}
+
 .description__menu-card-subtitle {
     box-sizing: border-box;
     text-align: left;
@@ -133,6 +189,13 @@
     font-size: 20px;
     line-height: 26px;
     color: #323232;
+}
+
+@media screen and (max-width: 1100px) {
+    .description__menu-card-subtitle {
+        font-size: 14px;
+        line-height: 18.13px;
+    }
 }
 
 .description__menu-card-text {
@@ -151,6 +214,20 @@
     color: rgba(50, 50, 50, 0.5);
 }
 
+@media screen and (max-width: 1100px) {
+    .description__menu-card-text {
+        font-size: 14px;
+        line-height: 18.13px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .description__menu-card-text {
+        font-size: 12px;
+        line-height: 15.54px;
+    }
+}
+
 .description__menu-link {
     width: 50px;
     height: 50px;
@@ -162,22 +239,54 @@
     border: none;
 }
 
+@media screen and (max-width: 1100px) {
+    .description__menu-link {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .description__menu-link {
+        width: 50px;
+        height: 50px;
+    }
+}
+
 .description__banner {
     position: absolute;
-    top: 120px;
+    top: 70px;
     right: 0;
-    width: 189px;
-    height: 100px;
+    max-width: 204px;
+    height: 116px;
     background-color: #A5CDAB;
     padding: 16px 24px;
     display: flex;
     flex-direction: column;
 }
 
+@media screen and (max-width: 1100px) {
+    .description__banner {
+        top: 40px;
+        max-width: 171px;
+        height: 100px;
+        padding: 12px 20px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .description__banner {
+        top: 17px;
+        max-width: 141px;
+        height: 92px;
+        padding: 12px 16px;
+    }
+}
+
 .description__banner-title {
     box-sizing: border-box;
     text-align: left;
-    width: 189px;
+    max-width: 189px;
     padding: 0;
     margin: 0;
     margin-bottom: 12px;
@@ -189,10 +298,17 @@
     color: #323232;
 }
 
+@media screen and (max-width: 1100px) {
+    .description__banner-title {
+        font-size: 18px;
+        line-height: 22.28px;
+    }
+}
+
 .description__banner-subtitle {
     box-sizing: border-box;
     text-align: left;
-    width: 189px;
+    max-width: 189px;
     padding: 0;
     margin: 0;
     font-family: 'PT Sans';
@@ -201,6 +317,13 @@
     font-size: 14px;
     line-height: 18px;
     color: #323232;
+}
+
+@media screen and (max-width: 1100px) {
+    .description__banner-subtitle {
+        font-size: 12px;
+        line-height: 15.54px;
+    }
 }
 
 .description__banner-close {
@@ -214,6 +337,13 @@
     left: -24px;
     top: 0px;
     border: 0;
+}
+
+@media screen and (max-width: 680px) {
+    .description__banner-close {
+        width: 16.15px;
+        height: 16.42px;
+    }
 }
 
 .diary {
