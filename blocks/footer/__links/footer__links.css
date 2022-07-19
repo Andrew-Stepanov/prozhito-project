@@ -1,0 +1,14 @@
+.footer__links {
+    height: 85px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(50, 50, 50, 0.3);
+    border-top: 1px solid rgba(50, 50, 50, 0.3);
+}
+
+@media screen and (max-width: 360px) {
+    .footer__links {
+        max-width: 246px;
+    }}

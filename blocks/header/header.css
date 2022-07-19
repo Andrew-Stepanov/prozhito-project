@@ -1,0 +1,47 @@
+.header {
+  width: 100%;
+  background-color: #F7F4F0;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+@media screen and (max-width: 1020px) {
+  .header {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .header_mobile {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #E7E4DE;;
+  }
+
+  .header__menu-list {
+    visibility: hidden;
+    display: none;
+  }
+
+  .header__menu-list_mobile {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

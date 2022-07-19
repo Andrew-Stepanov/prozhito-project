@@ -1,13 +1,67 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/index.css">
-  <title>Главная страница</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Главная страница</title>
 </head>
-<body>
-  <header></header>
+<body class="page">
+
+    <header class="header">
+      <div class="header__container">
+        <img class="logo" src="./images/logo.svg" alt="Логотип">
+        <nav class="header__menu-list">
+          <ul class="header__menu">
+            <li class="header__menu-element"><a href="https://prozhito.org/page/archive" class="header__menu-link">Архив</a></li>
+            <li class="header__menu-element"><a href="https://prozhito.org/persons" class="header__menu-link">Корпус</a></li>
+            <li class="header__menu-element header__menu-element_active"><a href="/" class="header__menu-link">О проекте</a></li>
+          </ul>
+          <ul class="header__submenu">
+            <li class="header__menu-element"><a href="#" class="header__menu-link">О прожито</a></li>
+            <li class="header__menu-element"><a href="#" class="header__menu-link">Как работать?</a></li>
+            <li class="header__menu-element"><a href="#" class="header__menu-link">Медиа</a></li>
+            <li class="header__menu-element"><a href="#" class="header__menu-link">Новости</a></li>
+            <li class="header__menu-element"><a href="#" class="header__menu-link">Спецпроекты</a></li>
+          </ul>
+        </nav>
+        <div class="menu__button"></div>
+      </div>
+    </header>
+<main>
+    <footer class="footer">
+        <div class="footer__conteiner">
+            <nav class="footer__links">
+                <a href="#" class="footer__link" target="_blank">О команде</a>
+                <a href="#" class="footer__link" target="_blank">Благодарности</a>
+                <a href="#" class="footer__link" target="_blank">Партнёры</a>
+                <a href="#" class="footer__link" target="_blank">FAQ</a>
+                <a href="#" class="footer__link" target="_blank">Инструкции</a>
+            </nav>
+            <div class="footer__columns">
+                  <img class="logo logo_footer" src="./images/logo.svg" alt="Логотип"> 
+                  
+                  <nav class="footer__column footer__column_row">
+                    <div class="footer__column-social">
+                    <img src="./images/telegram.svg" alt="Логотип Телеграм" class="footer__social-icon">
+                    <a href="#" class="footer__column-link footer__column-link_block" target="_blank"> Телеграм</a>
+                    </div>
+                    <div class="footer__column-social">
+                    <img src="./images/vk.svg" alt="Логотип ВКонтакте" class="footer__social-icon">
+                    <a href="#" class="footer__column-link footer__column-link_block" target="_blank"> ВКонтакте</a>
+                    </div>
+                  </nav>
+                  <nav class="footer__column">
+                    <a href="#" class="footer__column-link" target="_blank">Юридическая информация</a>
+                    <a href="#" class="footer__column-link" target="_blank">Политика конфиденциальности</a>
+                  </nav>
+            </div>
+        </div>
+    </footer>    
+</main> 
+
 </body>
+
 </html>
