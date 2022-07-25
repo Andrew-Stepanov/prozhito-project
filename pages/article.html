@@ -10,26 +10,22 @@
   <body>
     <header class="header">
       <div class="header__container">
-        <img class="logo" src="../images/logo.svg" alt="Логотип" />
+        <img class="logo" src="../images/logo.svg" alt="Логотип">
         <nav class="header__menu-list">
           <ul class="header__menu">
-            <li class="header__menu-element">
-              <a
-                href="https://prozhito.org/page/archive"
-                class="header__menu-link"
-                >Архив</a
-              >
-            </li>
-            <li class="header__menu-element">
-              <a href="https://prozhito.org/persons" class="header__menu-link"
-                >Корпус</a
-              >
-            </li>
-            <li class="header__menu-element">
-              <a href="/" class="header__menu-link">О проекте</a>
-            </li>
+            <li class="header__menu-element"><a href="https://prozhito.org/page/archive" class="header__menu-link">Архив</a></li>
+            <li class="header__menu-element"><a href="https://prozhito.org/persons" class="header__menu-link">Корпус</a></li>
+            <li class="header__menu-element"><a href="../index.html" class="header__menu-link">О проекте</a></li>
+          </ul>
+          <ul class="header__submenu">
+            <li class="header__menu-element"><a href="#" class="header__menu-link">О прожито</a></li>
+            <li class="header__menu-element"><a href="#" class="header__menu-link">Как работать?</a></li>
+            <li class="header__menu-element"><a href="#" class="header__menu-link">Медиа</a></li>
+            <li class="header__menu-element"><a href="#" class="header__menu-link">Новости</a></li>
+            <li class="header__menu-element"><a href="#" class="header__menu-link">Спецпроекты</a></li>
           </ul>
         </nav>
+        <div class="menu__button"></div>
       </div>
     </header>
     <main class="container">
@@ -120,10 +116,12 @@
           - Мне.<br />
         </p>
         <figure class="audio">
-          <audio
-            src="https://oralhistory.ru/audio/1564_Rodoman.mp3"
-            controls
-          ></audio>
+          <button class="audio__play"></button>
+          <button class="audio__back"></button>
+          <button class="audio__forward"></button>
+          <div class="audio__story"></div>
+          <p class="audio__time">15:16</p>
+          <button class="audio__volume"></button>
           <figcaption>
             Запись разговора Юры и Вени Аронвальда, 1937 год
           </figcaption>
