@@ -13,4 +13,7 @@
     box-sizing: border-box;
     display: block;
   }
+  .header__container_mobile {
+    height: 100vh;
+  }
 }

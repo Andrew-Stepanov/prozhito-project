@@ -5,6 +5,8 @@ const menuBtn = document.querySelector('.menu__button');
 const header = document.querySelector('.header');
 const headerMenuList = document.querySelector('.header__menu-list');
 const headerMenu = document.querySelector('.header__menu');
+const headerContainer = document.querySelector('.header__container');
+
 
 if (window.matchMedia("(min-width: 759px)").matches) {
   submenuBtn.onmouseover = function () {
@@ -33,4 +35,5 @@ function openMobileMenu() {
   headerMenuList.classList.toggle('header__menu-list_mobile');
   submenu.classList.toggle('header__submenu_mobile');
   menuBtn.classList.toggle('menu__button_opened');
+  headerContainer.classList.toggle('header__container_mobile');
 }
