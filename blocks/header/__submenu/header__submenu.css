@@ -1,0 +1,36 @@
+.header__submenu {
+  margin: 0 20px;
+  position: absolute;
+  right: 0;
+  top: 50px;
+  list-style: none;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@media screen and (max-width: 1020px) {
+  .header__submenu {
+    top: 42px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .header__submenu {
+    padding: 10px 0 12px 0;
+    border-bottom: 1px solid rgba(50, 50, 50, 0.3);
+    margin: 0;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-start;
+    height: 140px;
+    position: relative;
+    right: 0;
+    top: 0;
+  }
+
+  .header__submenu_mobile {
+    visibility: visible;
+    opacity: 1;
+  }
+}
