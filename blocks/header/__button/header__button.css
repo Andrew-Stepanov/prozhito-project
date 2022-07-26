@@ -1,0 +1,17 @@
+.menu__button {
+  width: 24px;
+  height: 24px;
+  display: none;
+  background-image: url(../../../images/menu\ mobil.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+
+@media screen and (max-width: 760px) {
+  .menu__button {
+    display: block;
+  }
+}
