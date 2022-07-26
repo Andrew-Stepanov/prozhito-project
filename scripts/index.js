@@ -7,7 +7,6 @@ const headerMenuList = document.querySelector('.header__menu-list');
 const headerMenu = document.querySelector('.header__menu');
 const headerContainer = document.querySelector('.header__container');
 
-
 if (window.matchMedia("(min-width: 759px)").matches) {
   submenuBtn.onmouseover = function () {
     submenu.style.opacity = '1';
