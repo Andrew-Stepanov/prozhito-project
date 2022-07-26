@@ -1,0 +1,16 @@
+.element__title_block {
+    display: none;
+}
+
+@media screen and (max-width: 440px) {
+    .element__title_block {
+        display: block;
+        margin: 0;
+        margin-top: 32px;
+        font-family: 'WF';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+    }
+  }
