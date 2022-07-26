@@ -1,0 +1,9 @@
+@media screen and (max-width: 440px) {
+    .element_pozzz {
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+        margin: 0px 104px;
+        z-index: 0;
+    }
+  }

@@ -1,0 +1,16 @@
+.element__list {
+    margin: 0;
+    margin-bottom: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.12px;
+}
+
+@media screen and (max-width: 1020px) {
+    .element__list {
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 8px;
+    }
+  }
