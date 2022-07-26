@@ -1,0 +1,7 @@
+.news-card__data-title-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+}
