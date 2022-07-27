@@ -1,8 +1,0 @@
-.footer__column {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer__column:last-of-type {
-  margin-right: 50px;
-}
