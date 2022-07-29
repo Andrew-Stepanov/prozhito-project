@@ -24,8 +24,7 @@ if (window.matchMedia("(min-width: 759px)").matches) {
     submenu.style.opacity = '1';
     submenu.style.visibility = 'visible';
   };
-}
-
+};
 
 menuBtn.addEventListener('click', openMobileMenu);
 
@@ -36,3 +35,5 @@ function openMobileMenu() {
   menuBtn.classList.toggle('menu__button_opened');
   headerContainer.classList.toggle('header__container_mobile');
 }
+
+

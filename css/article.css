@@ -12,6 +12,7 @@
 @import url(../blocks/header/__button/menu__button.css);
 @import url(../blocks/header/__button/_opened/menu__button_opened.css);
 @import url(../blocks/header/_theme/header_theme_white.css);
+@import url(../blocks/header/__menu-element/_theme/header__menu-element_theme_white.css);
 
 @import url(../blocks/logo/logo.css);
 
@@ -70,9 +71,8 @@
 .index {
   position: absolute;
   width: 122px;
-  height: 26px;
-  left: 20px;
-  top: 511px;
+  left: -27px;
+  top: 437px;
 
   /* Desktop/H3 */
 
@@ -119,10 +119,11 @@
   color: #323232;
   margin: 0 auto 28px;
   text-align: center;
+  padding-right: 46px;
 }
 
 .article p {
-  max-width: 660px;
+  max-width: 676px;
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 400;
@@ -134,7 +135,7 @@
 }
 
 .article blockquote {
-  max-width: 674px;
+  max-width: 662px;
   font-family: 'WF';
   font-style: normal;
   font-weight: 400;
@@ -159,7 +160,8 @@
 }
 
 .article .image img {
-  max-height: 76%;
+  max-height: 89%;
+  padding-bottom: 16px;
 }
 
 .article .image figcaption{
@@ -208,13 +210,13 @@
 }
 
 .audio {
-  max-width: 678px;
+  max-width: 680px;
   height: 112px;
   background: #BFE9D5;
   border-radius: 35px;
   margin: 0 auto 82px;
   position: relative;
-  padding: 0 20px;
+  padding: 0;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -291,9 +293,15 @@
   margin: 0 auto 82px;
   position: relative;
 }
-.content {
 
+.article .gallery .content .image img {
+  max-height: 72%;
 }
+.article .gallery .content .image figcaption {
+  max-width: 676px;
+  margin-left: 0;
+}
+
 .gallery button {
   width: 18px;
   height: 9px;
@@ -458,9 +466,12 @@
     width: 90px;
   }
   .article .image img {
-    max-height: 35%;
+    max-height: 50%;
   }
   .popup__note {
     right: 5px;
+  }
+  .article .gallery .content .image img {
+    max-height: 50%;
   }
 }
