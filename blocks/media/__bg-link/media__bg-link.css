@@ -15,5 +15,9 @@
 }
 
 @media screen and (max-width: 680px) {
-    .media__bg-link {}
+    .media__bg-link {
+        color: rgba(50, 50, 50, 1);
+        min-height: 18px;
+        max-width: 109px;
+    }
 }
