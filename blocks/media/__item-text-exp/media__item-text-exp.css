@@ -1,0 +1,13 @@
+.media__item-text-exp {
+    box-sizing: border-box;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #323232;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 28px;
+}

@@ -1,0 +1,4 @@
+.media__slider-items {
+    flex-direction: row;
+    display: flex;
+}

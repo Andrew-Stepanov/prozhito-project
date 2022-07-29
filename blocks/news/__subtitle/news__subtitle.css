@@ -1,0 +1,20 @@
+.news__subtitle {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #323232;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1280px) {
+    .news__subtitle {
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 4px;
+    }
+}

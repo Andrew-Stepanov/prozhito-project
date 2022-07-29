@@ -1,0 +1,28 @@
+.special-projects__item-image-blokada {
+    padding: 0;
+    margin: 0;
+    margin-right: 31.45px;
+    height: 352px;
+    width: 212.3px;
+    background-image: url(../../../images/blokada.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 1280px) {
+    .special-projects__item-image-blokada {
+        width: 359px;
+        min-height: 182px;
+        margin: 0;
+        background-size: contain;
+        background-image: url(../../../images/blokada_2.png);
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .special-projects__item-image-blokada {
+        width: 336px;
+        min-height: 200px;
+        background-size: cover;
+    }
+}

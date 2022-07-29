@@ -1,0 +1,22 @@
+.special-projects__item {
+    max-width: 678px;
+    height: 354px;
+    background-color: #F7F4F0;
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 1280px) {
+    .special-projects__item {
+        max-width: 361px;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .special-projects__item {
+        max-width: 336px;
+        height: 386px;
+        border: 1px solid #A5CDAB;
+    }
+}

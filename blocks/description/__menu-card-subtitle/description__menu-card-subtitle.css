@@ -1,0 +1,21 @@
+.description__menu-card-subtitle {
+    box-sizing: border-box;
+    text-align: left;
+    max-width: 498px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 36px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #323232;
+}
+
+@media screen and (max-width: 1280px) {
+    .description__menu-card-subtitle {
+        font-size: 14px;
+        line-height: 18.13px;
+    }
+}

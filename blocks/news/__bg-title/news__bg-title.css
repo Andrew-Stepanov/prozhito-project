@@ -1,0 +1,31 @@
+.news__bg-title {
+    font-family: 'WF';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 100%;
+    margin-top: 16px;
+    margin-left: 32px;
+    max-width: 355px;
+    color: #F5F5F5;
+    margin-bottom: 362px;
+}
+
+@media screen and (max-width: 1280px) {
+    .news__bg-title {
+        font-size: 30px;
+        line-height: 37px;
+        max-width: 132px;
+        margin-left: 16px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .news__bg-title {
+        margin-left: 12px;
+        margin-top: 2px;
+        max-width: 268px;
+        font-size: 32px;
+        line-height: 120%;
+    }
+}

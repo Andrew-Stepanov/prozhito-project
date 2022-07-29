@@ -1,0 +1,7 @@
+.media__slider {
+    display: flex;
+    flex-direction: column;
+    width: 963px;
+    justify-content: flex-start;
+    background-color: none;
+}

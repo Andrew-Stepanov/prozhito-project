@@ -1,0 +1,16 @@
+.media__item-subtitle-exp {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #323232;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 72px;
+    width: 297px;
+    box-sizing: border-box;
+}

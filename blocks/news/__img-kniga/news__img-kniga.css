@@ -1,0 +1,19 @@
+.news__img-kniga {
+    background-image: url(../../../images/news__slider-img-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 212px;
+    height: 223px;
+    margin: 0;
+    padding: 0;
+    margin-left: 28px;
+}
+
+@media screen and (max-width: 1280px) {
+    .news__img-kniga {
+        width: 102px;
+        height: 120px;
+        margin-left: 12px;
+    }
+}

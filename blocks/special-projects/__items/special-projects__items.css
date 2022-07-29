@@ -1,0 +1,6 @@
+.special-projects__items {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 465px;
+}

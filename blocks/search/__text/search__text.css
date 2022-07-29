@@ -1,0 +1,35 @@
+.search__text {
+    box-sizing: border-box;
+    text-align: left;
+    max-width: 678px;
+    padding: 0;
+    margin: 0 auto;
+    margin-bottom: 178px;
+    font-family: 'WF';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: rgba(50, 50, 50, 0.7);
+}
+
+@media screen and (max-width: 1280px) {
+    .search__text {
+        font-size: 14px;
+        line-height: 18.13px;
+        margin-bottom: 61px;
+        max-width: 419px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .search__text {
+        margin-bottom: 16px;
+        text-align: center;
+        max-width: 335px;
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+}

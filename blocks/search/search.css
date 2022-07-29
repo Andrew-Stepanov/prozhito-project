@@ -1,0 +1,20 @@
+.search {
+    max-width: 1376px;
+    background-color: #F7F4F0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px) {
+    .search {
+        max-width: 774px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .search {
+        flex-direction: column;
+    }
+}

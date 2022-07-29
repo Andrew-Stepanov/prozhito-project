@@ -1,0 +1,14 @@
+.media__item-title-exp {
+    font-family: 'WF';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 100%;
+    color: #323232;
+    margin: 0;
+    padding: 0;
+    margin-top: 32px;
+    margin-left: 16px;
+    margin-bottom: 12px;
+    text-align: center;
+}

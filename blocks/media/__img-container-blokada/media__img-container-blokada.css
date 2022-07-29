@@ -1,0 +1,14 @@
+.media__img-container-blokada {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../../../images/media-img-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 327px;
+    height: 526px;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    justify-content: space-between;
+}

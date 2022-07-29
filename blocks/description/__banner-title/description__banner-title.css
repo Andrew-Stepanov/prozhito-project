@@ -1,0 +1,21 @@
+.description__banner-title {
+    box-sizing: border-box;
+    text-align: left;
+    max-width: 189px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 12px;
+    font-family: 'WF';
+    font-style: Regular;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    color: #323232;
+}
+
+@media screen and (max-width: 1280px) {
+    .description__banner-title {
+        font-size: 18px;
+        line-height: 22.28px;
+    }
+}

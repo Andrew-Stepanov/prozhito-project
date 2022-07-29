@@ -1,0 +1,29 @@
+.diary__link {
+    width: 170px;
+    height: 34px;
+    position: relative;
+    background-size: cover;
+    background-color: #A5CDAB;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #323232;
+    border: none;
+    top: -17px;
+}
+
+@media screen and (max-width: 1280px) {
+    .diary__link {}
+}
+
+@media screen and (max-width: 680px) {
+    .diary__link {}
+}
