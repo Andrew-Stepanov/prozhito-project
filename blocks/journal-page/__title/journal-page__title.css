@@ -1,0 +1,27 @@
+.journal-page__title {
+    margin: 0;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 60px;
+}
+
+@media screen and (max-width: 1020px) {
+    .journal-page__title {
+        font-size: 30px;
+        line-height: 39px;
+    }
+  }
+
+  @media screen and (max-width: 440px) {
+    .journal-page__title {
+        font-family: 'WF';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 120%;
+        margin: 0;
+        text-align: start;
+    }
+  }
