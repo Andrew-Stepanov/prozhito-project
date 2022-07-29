@@ -18,5 +18,11 @@
 }
 
 @media screen and (max-width: 680px) {
-    .news__item-title {}
+    .news__item-title {
+        padding: 0;
+        margin: 0;
+        color: white;
+        font-size: 0;
+        line-height: 0;
+    }
 }

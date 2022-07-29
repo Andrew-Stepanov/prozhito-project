@@ -15,6 +15,6 @@
     .news__bg {
         max-width: 336px;
         height: 38px;
-        background-color: none;
+        background-color: white;
     }
 }

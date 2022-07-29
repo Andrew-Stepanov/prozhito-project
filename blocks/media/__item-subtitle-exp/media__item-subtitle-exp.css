@@ -14,3 +14,7 @@
     width: 297px;
     box-sizing: border-box;
 }
+
+@media screen and (max-width: 1280px) {
+    .media__item-subtitle-exp {}
+}

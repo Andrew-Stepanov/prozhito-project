@@ -12,3 +12,10 @@
     margin-left: 20px;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 1280px) {
+    .media__img-container-stalin {
+        width: 180px;
+        height: 280px;
+    }
+}

@@ -20,5 +20,8 @@
     .news__btn-active {
         border: none;
         margin-left: 18px;
+        width: 0;
+        height: 0;
+        background-image: none;
     }
 }

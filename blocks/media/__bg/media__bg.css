@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 1280px) {
     .media__bg {
-        width: 253px;
+        min-width: 253px;
     }
 }
 
