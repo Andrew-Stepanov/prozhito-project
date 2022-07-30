@@ -52,6 +52,7 @@
 @import url(../blocks/news/__menu-card-link/news__menu-card-link.css);
 @import url(../blocks/news/__slider/news__slider.css);
 @import url(../blocks/news/__slider-item/news__slider-item.css);
+@import url(../blocks/news/__slider-item/_form/news__slider-item_form.css);
 @import url(../blocks/news/__title-row/news__title-row.css);
 @import url(../blocks/news/__item-title/news__item-title.css);
 @import url(../blocks/news/__btn/news__btn.css);

@@ -1,6 +1,20 @@
 .news__slider-items {
+    max-height: 443px;
     display: flex;
     flex-direction: row;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.news__slider-items::-webkit-scrollbar {
+  height: 4px;
+  background-color: #fff;
+
+}
+
+.news__slider-items::-webkit-scrollbar-thumb {
+  background-color: #323232;
 }
 
 @media screen and (max-width: 1280px) {
