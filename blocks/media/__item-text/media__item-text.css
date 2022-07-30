@@ -1,0 +1,30 @@
+.media__item-text {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(245, 245, 245, 1);
+    margin: 0;
+    padding: 0;
+    margin-left: 16px;
+    margin-bottom: 24px;
+}
+
+@media screen and (max-width: 1280px) {
+    .media__item-text {
+        font-size: 0;
+        line-height: 0;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .media__item-text {
+        font-size: 12px;
+        line-height: 16px;
+        margin-left: 8px;
+        margin-bottom: 25px;
+    }
+}

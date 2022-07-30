@@ -1,0 +1,21 @@
+.media__img-container-stalin {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../../../images/media-img-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 327px;
+    height: 526px;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1280px) {
+    .media__img-container-stalin {
+        width: 180px;
+        height: 280px;
+    }
+}

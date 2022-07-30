@@ -1,0 +1,20 @@
+.description__banner-subtitle {
+    box-sizing: border-box;
+    text-align: left;
+    max-width: 189px;
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Sans';
+    font-style: Regular;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #323232;
+}
+
+@media screen and (max-width: 1280px) {
+    .description__banner-subtitle {
+        font-size: 12px;
+        line-height: 15.54px;
+    }
+}

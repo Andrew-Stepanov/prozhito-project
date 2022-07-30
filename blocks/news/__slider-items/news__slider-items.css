@@ -1,0 +1,16 @@
+.news__slider-items {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 1280px) {
+    .news__slider-items {
+        max-width: 515px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .news__slider-items {
+        flex-direction: column;
+    }
+}

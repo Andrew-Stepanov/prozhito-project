@@ -1,0 +1,20 @@
+.special-projects__container {
+    max-width: 1376px;
+    display: flex;
+    column-gap: 20px;
+    row-gap: 24px;
+    margin: 0 auto;
+    padding: 0;
+    justify-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1280px) {
+    .special-projects__container {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .special-projects__container {}
+}

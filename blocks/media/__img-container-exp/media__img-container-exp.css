@@ -1,0 +1,17 @@
+.media__img-container-exp {
+    display: flex;
+    flex-direction: column;
+    background-color: #E7E4DE;
+    width: 327px;
+    height: 526px;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 1280px) {
+    .media__img-container-exp {
+        width: 180px;
+        height: 280px;
+    }
+}

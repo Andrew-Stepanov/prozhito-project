@@ -1,0 +1,13 @@
+.search__buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 680px) {
+    .search__buttons {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

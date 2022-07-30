@@ -1,0 +1,23 @@
+.diary__container {
+    max-width: 1144px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 80px;
+    margin: 0 auto;
+    padding: 0;
+    justify-items: center;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+@media screen and (max-width: 1280px) {
+    .diary__container {
+        display: flex;
+        column-gap: 12px;
+        margin-bottom: 32px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .diary__container {}
+}

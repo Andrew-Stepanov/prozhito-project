@@ -1,0 +1,8 @@
+.search__card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 56px;
+    max-width: 678px;
+    padding: 0;
+    margin: 0;
+}

@@ -1,0 +1,18 @@
+.news__menu-card-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 52px;
+}
+
+@media screen and (max-width: 1280px) {
+    .news__menu-card-link {
+        margin-left: 72px;
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .news__menu-card-link {}
+}

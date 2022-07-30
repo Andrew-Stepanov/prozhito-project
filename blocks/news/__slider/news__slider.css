@@ -1,0 +1,15 @@
+.news__slider {
+    display: flex;
+    flex-direction: column;
+    max-width: 963px;
+    justify-content: flex-start;
+    background-color: none;
+}
+
+@media screen and (max-width: 1280px) {
+    .news__slider {}
+}
+
+@media screen and (max-width: 680px) {
+    .news__slider {}
+}

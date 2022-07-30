@@ -1,0 +1,29 @@
+.special-projects__title {
+    box-sizing: border-box;
+    text-align: center;
+    max-width: 266px;
+    height: 55px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 40px;
+    font-family: 'WF';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 120%;
+    color: #323232;
+}
+
+@media screen and (max-width: 1280px) {
+    .special-projects__title {
+        font-size: 30px;
+        line-height: 37.14px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .special-projects__title {
+        font-size: 32px;
+        line-height: 38.4px;
+    }
+}

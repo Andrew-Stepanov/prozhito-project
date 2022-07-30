@@ -1,0 +1,5 @@
+.description__menu-card-link {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}

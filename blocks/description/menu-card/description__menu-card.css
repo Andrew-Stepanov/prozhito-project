@@ -1,0 +1,29 @@
+.description__menu-card {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 32px;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    max-width: 498px;
+    height: 212px;
+    border: 1px solid rgba(50, 50, 50, 0.3);
+}
+
+@media screen and (max-width: 1280px) {
+    .description__menu-card {
+        max-width: 362px;
+        height: 212px;
+        padding: 28px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .description__menu-card {
+        max-width: 336px;
+        height: 184px;
+        padding: 12px;
+        margin-bottom: 12px;
+    }
+}

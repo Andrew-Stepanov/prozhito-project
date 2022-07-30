@@ -1,0 +1,19 @@
+.description__banner-close {
+    background-image: url(../../../images/close.svg);
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: cover;
+    background-color: transparent;
+    left: -24px;
+    top: 0px;
+    border: 0;
+}
+
+@media screen and (max-width: 680px) {
+    .description__banner-close {
+        width: 16.15px;
+        height: 16.42px;
+    }
+}

@@ -1,0 +1,24 @@
+.news__bg-link {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    margin-right: 20px;
+    max-width: 226px;
+}
+
+@media screen and (max-width: 1280px) {
+    .news__bg-link {
+        font-size: 14px;
+        line-height: 18px;
+        width: 109px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .news__bg-link {
+        width: 149px;
+        color: rgba(50, 50, 50, 1);
+    }
+}
