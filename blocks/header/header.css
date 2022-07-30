@@ -3,14 +3,13 @@
   max-width: 1440px;
   margin: 0 auto;
   background-color: #f7f4f0;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 26px;
   position: relative;
 }
-
 
 @media screen and (max-width: 1020px) {
   .header {
@@ -20,16 +19,16 @@
 }
 
 @media screen and (max-width: 760px) {
+  .header__menu-list {
+    visibility: hidden;
+    display: none;
+  }
+
   .header_mobile {
     position: fixed;
     left: 0;
     top: 0;
     background-color: #e7e4de;
-  }
-
-  .header__menu-list {
-    visibility: hidden;
-    display: none;
   }
 
   .header__menu-list_mobile {

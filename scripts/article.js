@@ -1,5 +1,5 @@
 
-
+const galeryCounter = document.querySelector('.content__counter');
 
 let slideIndex = 1;
 showDivs(slideIndex);
@@ -14,11 +14,10 @@ function showDivs(n) {
   if (n > x.length) {slideIndex = 1}
   if (n < 1) {slideIndex = x.length}
   for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
+     x[i].style.display = 'none';
   }
-  x[slideIndex-1].style.display = "flex";
-
-
+  x[slideIndex-1].style.display = 'flex';
+  galeryCounter.innerHTML = slideIndex + ' / ' + x.length;
 }
 
 const galleryBtn = document.querySelector('.gallery button');

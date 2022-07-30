@@ -10,36 +10,58 @@
   <body>
     <header class="header header_white">
       <div class="header__container">
-        <img class="logo" src="../images/logo.svg" alt="Логотип">
+        <img class="logo" src="../images/logo.svg" alt="Логотип" />
         <nav class="header__menu-list">
           <ul class="header__menu">
-            <li class="header__menu-element header__menu-element_theme_white"><a href="https://prozhito.org/page/archive" class="header__menu-link">Архив</a></li>
-            <li class="header__menu-element header__menu-element_theme_white"><a href="https://prozhito.org/persons" class="header__menu-link">Корпус</a></li>
-            <li class="header__menu-element header__menu-element_theme_white"><a href="../index.html" class="header__menu-link">О проекте</a></li>
+            <li class="header__menu-element header__menu-element_theme_white">
+              <a
+                href="https://prozhito.org/page/archive"
+                class="header__menu-link"
+                >Архив</a
+              >
+            </li>
+            <li class="header__menu-element header__menu-element_theme_white">
+              <a href="https://prozhito.org/persons" class="header__menu-link"
+                >Корпус</a
+              >
+            </li>
+            <li class="header__menu-element header__menu-element_theme_white">
+              <a href="../index.html" class="header__menu-link">О проекте</a>
+            </li>
           </ul>
           <ul class="header__submenu">
-            <li class="header__menu-element header__menu-element_theme_white"><a href="#" class="header__menu-link">О прожито</a></li>
-            <li class="header__menu-element header__menu-element_theme_white"><a href="#" class="header__menu-link">Как работать?</a></li>
-            <li class="header__menu-element header__menu-element_theme_white"><a href="#" class="header__menu-link">Медиа</a></li>
-            <li class="header__menu-element header__menu-element_theme_white"><a href="#" class="header__menu-link">Новости</a></li>
-            <li class="header__menu-element header__menu-element_theme_white"><a href="#" class="header__menu-link">Спецпроекты</a></li>
+            <li class="header__menu-element header__menu-element_theme_white">
+              <a href="#" class="header__menu-link">О прожито</a>
+            </li>
+            <li class="header__menu-element header__menu-element_theme_white">
+              <a href="#" class="header__menu-link">Как работать?</a>
+            </li>
+            <li class="header__menu-element header__menu-element_theme_white">
+              <a href="#" class="header__menu-link">Медиа</a>
+            </li>
+            <li class="header__menu-element header__menu-element_theme_white">
+              <a href="#" class="header__menu-link">Новости</a>
+            </li>
+            <li class="header__menu-element header__menu-element_theme_white">
+              <a href="#" class="header__menu-link">Спецпроекты</a>
+            </li>
           </ul>
         </nav>
-        <div class="menu__button"></div>
+        <div class="header__menu-button"></div>
       </div>
     </header>
     <main class="container">
-      <section>
+      <div>
         <p class="breadcrumbs">
           Главная страница / Журнал «Прожито» / Опыт прочтения одного дневника
         </p>
-      </section>
-      <section class="tags">
+      </div>
+      <div class="tags">
         <p class="tags__tag">ДЕТСТВО</p>
-        <div class="tags_separator"></div>
+        <div class="tags__separator"></div>
         <p class="tags__tag">ОПЫТ ЧИТАТЕЛЯ</p>
-      </section>
-      <section class="index"><p>оглавление</p></section>
+      </div>
+      <div class="index"><p>оглавление</p></div>
       <section class="article">
         <h1>Опыт прочтения одного дневника</h1>
         <h2>Часть один</h2>
@@ -104,17 +126,15 @@
           Юра.
         </p>
         <figure class="video">
-          <video src=""></video>
+          <video src="#"></video>
+          <button class="video__play-btn"></button>
           <figcaption>Лекция о дневнике Юры Беневольского</figcaption>
         </figure>
         <p>
           Первая дневниковая запись датирована 30 августа 1937 года. Юра узнает,
           что его друг, Веня Аронвальд, во-первых, остается на второй год, и,
-          во-вторых, ведет дневник. «- Дай посмотрю.
-          Засмеялся:
-          - Нет, смотреть можно только одному человеку!
-          - Кому-же?
-          - Мне.
+          во-вторых, ведет дневник. «- Дай посмотрю. Засмеялся: - Нет, смотреть
+          можно только одному человеку! - Кому-же? - Мне.
         </p>
         <figure class="audio">
           <button class="audio__play"></button>
@@ -144,77 +164,119 @@
         <figure class="gallery">
           <div class="content">
             <figure class="image">
-              <img src="https://prozhito.org//pictures/news/1641996224_158.png" alt="alt-text">
-              <figcaption>
-                  Подпись к картинке №1
-              </figcaption>
+              <img
+                src="https://prozhito.org//pictures/news/1641996224_158.png"
+                alt="alt-text"
+              />
+              <figcaption>Подпись к картинке №1</figcaption>
             </figure>
             <figure class="image">
-              <img src="https://prozhito.org//pictures/news/1637760245_157.png" alt="alt-text">
-              <figcaption>
-                  Подпись к картинке №2
-              </figcaption>
+              <img
+                src="https://prozhito.org//pictures/news/1637760245_157.png"
+                alt="alt-text"
+              />
+              <figcaption>Подпись к картинке №2</figcaption>
             </figure>
             <button></button>
+            <div class="content__counter"></div>
           </div>
         </figure>
-        <p>Да, днем! А ночью Петербург!!»
-          Многое объясняет фраза, написанная Юрой ранее: «Когда приехал (вернее пришел) домой Ната сообщила: А папа пьяный! – Это не новость, отец за последние дни часто пьет, и мне опротивел». Вскоре любое упоминание об отце исчезает.
-          Теперь на Юре не только домашние заботы: «Сейчас я имею свои деньги. Я их самым настоящим образом заработал. Мама мне подыскала урок. И я теперь должен каждый 2-ой и 3-ий день шестидневки ездить и давать частные уроки одному шалопаю из 5-го класса. 1 час – 4 руб. Мама начинает относится ко мне как к юноше, а не ребенку старшего возраста. Я теперь довольно свободно могу уйти из дому в любое время».
-          </p>
+        <p>
+          Да, днем! А ночью Петербург!!» Многое объясняет фраза, написанная Юрой
+          ранее: «Когда приехал (вернее пришел) домой Ната сообщила: А папа
+          пьяный! – Это не новость, отец за последние дни часто пьет, и мне
+          опротивел». Вскоре любое упоминание об отце исчезает. Теперь на Юре не
+          только домашние заботы: «Сейчас я имею свои деньги. Я их самым
+          настоящим образом заработал. Мама мне подыскала урок. И я теперь
+          должен каждый 2-ой и 3-ий день шестидневки ездить и давать частные
+          уроки одному шалопаю из 5-го класса. 1 час – 4 руб. Мама начинает
+          относится ко мне как к юноше, а не ребенку старшего возраста. Я теперь
+          довольно свободно могу уйти из дому в любое время».
+        </p>
       </section>
     </main>
     <div class="popup__index">
-      <div class="popup__elements">
-        <p class="popup__element">Часть один</p>
-        <p class="popup__element">Часть два</p>
-        <p class="popup__element">Часть три</p>
+      <div class="popup__index-elements">
+        <p class="popup__index-element">Часть один</p>
+        <p class="popup__index-element">Часть два</p>
+        <p class="popup__index-element">Часть три</p>
       </div>
       <div class="popup__close-btn"></div>
     </div>
-    <div class="popup__note popup__note-close_opened ">
+    <div class="popup__note popup__note-close_opened">
       <p class="popup__title">Это верно</p>
       <p class="popup__text">Информация достоверна</p>
       <div class="popup__note-close"></div>
     </div>
     <footer class="footer">
       <div class="footer__conteiner">
-          <nav class="footer__links">
-              <a href="#" class="footer__link" target="_blank">О команде</a>
-              <a href="#" class="footer__link" target="_blank">Благодарности</a>
-              <a href="#" class="footer__link" target="_blank">Партнёры</a>
-              <a href="#" class="footer__link" target="_blank">FAQ</a>
-              <a href="#" class="footer__link" target="_blank">Инструкции</a>
+        <nav class="footer__links">
+          <a href="#" class="footer__link" target="_blank">О команде</a>
+          <a href="#" class="footer__link" target="_blank">Благодарности</a>
+          <a href="#" class="footer__link" target="_blank">Партнёры</a>
+          <a href="#" class="footer__link" target="_blank">FAQ</a>
+          <a href="#" class="footer__link" target="_blank">Инструкции</a>
+        </nav>
+
+        <div class="footer__columns">
+          <img class="footer__logo" src="../images/logo.svg" alt="Логотип" />
+
+          <nav class="footer__column footer__column_row">
+            <div class="footer__column-social">
+              <img
+                src="../images/telegram.svg"
+                alt="Логотип Телеграм"
+                class="footer__social-icon"
+              />
+              <a
+                href="#"
+                class="footer__column-link footer__column-link_block"
+                target="_blank"
+              >
+                Телеграм</a
+              >
+            </div>
+            <div class="footer__column-social">
+              <img
+                src="../images/logo-vkontakte.svg"
+                alt="Логотип ВКонтакте"
+                class="footer__social-icon"
+              />
+              <a
+                href="#"
+                class="footer__column-link footer__column-link_block"
+                target="_blank"
+              >
+                ВКонтакте</a
+              >
+            </div>
+            <div class="footer__column-social footer__column-social_block">
+              <img
+                src="../images/odnokl.svg"
+                alt="Логотип Одноклассники"
+                class="footer__social-icon"
+              />
+              <a
+                href="#"
+                class="footer__column-link footer__column-link_block"
+                target="_blank"
+              >
+                Одноклассники</a
+              >
+            </div>
           </nav>
 
-          <div class="footer__columns">
-
-                <img class="footer__logo" src="../images/logo.svg" alt="Логотип">
-
-                <nav class="footer__column footer__column_row">
-                  <div class="footer__column-social">
-                  <img src="../images/telegram.svg" alt="Логотип Телеграм" class="footer__social-icon">
-                  <a href="#" class="footer__column-link footer__column-link_block" target="_blank"> Телеграм</a>
-                  </div>
-                  <div class="footer__column-social">
-                  <img src="../images/logo-vkontakte.svg" alt="Логотип ВКонтакте" class="footer__social-icon">
-                  <a href="#" class="footer__column-link footer__column-link_block" target="_blank"> ВКонтакте</a>
-                  </div>
-                  <div class="footer__column-social footer__column-social_block">
-                    <img src="../images/odnokl.svg" alt="Логотип Одноклассники" class="footer__social-icon">
-                    <a href="#" class="footer__column-link footer__column-link_block" target="_blank"> Одноклассники</a>
-                    </div>
-                </nav>
-
-                <nav class="footer__column">
-                  <a href="#" class="footer__column-link" target="_blank">Юридическая информация</a>
-                  <a href="#" class="footer__column-link" target="_blank">Политика конфиденциальности</a>
-                </nav>
-
-
-          </div>
+          <nav class="footer__column">
+            <a href="#" class="footer__column-link" target="_blank"
+              >Юридическая информация</a
+            >
+            <a href="#" class="footer__column-link" target="_blank"
+              >Политика конфиденциальности</a
+            >
+          </nav>
+        </div>
       </div>
-  </footer>
+    </footer>
     <script src="../scripts/index.js"></script>
     <script src="../scripts/article.js"></script>
   </body>

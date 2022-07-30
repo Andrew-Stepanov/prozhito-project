@@ -1,0 +1,16 @@
+.breadcrumbs {
+  margin: 44px 0 47px 0;
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #323232;
+}
+
+@media screen and (max-width: 680px) {
+  .breadcrumbs {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
