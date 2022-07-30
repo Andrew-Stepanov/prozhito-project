@@ -1,0 +1,10 @@
+.element__block_margin {
+  margin: 0 16.95px;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .element__block_margin {
+    margin: 0 0 0 8px;
+  }
+}

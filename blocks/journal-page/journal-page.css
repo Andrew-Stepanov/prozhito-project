@@ -1,15 +1,15 @@
-.journal {
+.journal-page {
     margin: 42px auto 62px;
 }
 
 @media screen and (max-width: 1020px) {
-    .journal {
+    .journal-page {
         margin: 27px auto 24px;
     }
   }
 
   @media screen and (max-width: 440px) {
-    .journal {
+    .journal-page {
         margin: 0;
         margin-left: 12px;
     }

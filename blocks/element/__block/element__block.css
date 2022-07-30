@@ -1,5 +1,5 @@
 .element__block {
-    margin: 0 15.5px;
+    margin: 0 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,8 +8,8 @@
     height: 100%;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1200px) {
     .element__block {
-        margin: 0 auto;
+        margin: 0 8px;
     }
   }

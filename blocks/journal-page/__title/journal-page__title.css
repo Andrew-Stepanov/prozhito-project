@@ -1,4 +1,4 @@
-.journal__title {
+.journal-page__title {
     margin: 0;
     text-align: center;
     font-style: normal;
@@ -8,14 +8,14 @@
 }
 
 @media screen and (max-width: 1020px) {
-    .journal__title {
+    .journal-page__title {
         font-size: 30px;
         line-height: 39px;
     }
   }
 
   @media screen and (max-width: 440px) {
-    .journal__title {
+    .journal-page__title {
         font-family: 'WF';
         font-style: normal;
         font-weight: 400;

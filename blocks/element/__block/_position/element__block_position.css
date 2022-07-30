@@ -1,14 +1,8 @@
 .element__block_position {
-    color: #fff;
+    color: #F5F5F5;
     position: absolute;
     top: 0;
     left: 0;
     align-items: baseline;
     text-align: start;
 }
-
-@media screen and (max-width: 1020px) {
-    .element__block_position {
-        left: 8px;
-    }
-  }
