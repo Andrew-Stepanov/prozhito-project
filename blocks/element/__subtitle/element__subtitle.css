@@ -6,11 +6,11 @@
     line-height: 25.88px;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1200px) {
     .element__subtitle {
         font-size: 14px;
         line-height: 18px;
-        width: 140px;
+        white-space: break-spaces;
     }
   }
 
