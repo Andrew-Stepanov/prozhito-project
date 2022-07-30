@@ -5,6 +5,7 @@
     overflow-x: auto;
     flex-wrap: nowrap;
     -webkit-overflow-scrolling: touch;
+    margin-left: 20px;
 }
 
 .news__slider-items::-webkit-scrollbar {

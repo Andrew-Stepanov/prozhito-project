@@ -4,6 +4,7 @@
     overflow-x: auto;
     flex-wrap: nowrap;
     -webkit-overflow-scrolling: touch;
+    margin-left: 20px;
 }
 
 .media__slider-items::-webkit-scrollbar {
