@@ -1,0 +1,6 @@
+.tags__separator {
+  background-image: url(../../../images/tag-separator.svg);
+  width: 4px;
+  height: 4px;
+  margin: 0 16px;
+}
