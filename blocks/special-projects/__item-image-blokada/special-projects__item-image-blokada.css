@@ -3,7 +3,7 @@
     margin: 0;
     margin-right: 31.45px;
     height: 352px;
-    width: 212.3px;
+    min-width: 212.3px;
     background-image: url(../../../images/blokada.png);
     background-repeat: no-repeat;
     background-size: cover;
