@@ -9,10 +9,10 @@
     border-radius: 8px;
 }
 
-/*@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1280px) {
     .media__img-container-exp {
         width: 180px;
         height: 280px;
     }
 }
-*/
+

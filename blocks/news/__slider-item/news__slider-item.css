@@ -15,8 +15,7 @@
 @media screen and (max-width: 1280px) {
     .news__slider-item {
         width: 180px;
-        height: 236px;
-        margin-bottom: 79px;
+        margin-bottom: 50px;
     }
 }
 

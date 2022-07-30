@@ -16,5 +16,7 @@
     .news {
         flex-direction: column;
         max-height: 846px;
+        align-items: center;
+        width: 336px;
     }
 }

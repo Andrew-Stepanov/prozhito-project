@@ -11,5 +11,5 @@
 }
 
 @media screen and (max-width: 680px) {
-    .news__slider {}
+    .news__slider {width: 100%;}
 }

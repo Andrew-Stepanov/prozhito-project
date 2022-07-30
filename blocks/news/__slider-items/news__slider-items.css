@@ -4,6 +4,7 @@
     flex-direction: row;
     overflow-x: auto;
     flex-wrap: nowrap;
+    scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
     margin-left: 20px;
 }
@@ -21,11 +22,15 @@
 @media screen and (max-width: 1280px) {
     .news__slider-items {
         max-width: 515px;
+        max-height: 286px;
+        margin-left: 12px;
     }
 }
 
 @media screen and (max-width: 680px) {
     .news__slider-items {
         flex-direction: column;
+        overflow:hidden;
+        overflow-y:hidden;
     }
 }
