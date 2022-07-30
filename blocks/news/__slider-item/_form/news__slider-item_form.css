@@ -1,4 +1,9 @@
 .news__slider-item_form {
-  height: 526px;
   margin-bottom: 47px;
+}
+
+@media screen and (max-width: 1280px) {
+  .news__slider-item_form {
+    margin-bottom: 16px;
+  }
 }

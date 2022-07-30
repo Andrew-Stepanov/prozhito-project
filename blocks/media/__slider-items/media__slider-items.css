@@ -16,3 +16,11 @@
 .media__slider-items::-webkit-scrollbar-thumb {
   background-color: #323232;
 }
+
+@media screen and (max-width: 1280px) {
+  .media__slider-items {
+      max-width: 515px;
+      max-height: 296px;
+      margin-left: 12px;
+  }
+}
