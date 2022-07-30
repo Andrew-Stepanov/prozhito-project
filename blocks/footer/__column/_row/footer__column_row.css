@@ -1,6 +1,16 @@
 @media screen and (max-width: 768px) {
-  .footer__column_row {
+.footer__column_row {
     display: flex;
     flex-direction: row;
-  }
+    justify-self: end;
 }
+}
+
+@media screen and (max-width: 525px) {
+  .footer__column_row {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-self: center;
+    margin-bottom: 24px;
+  }
+  }

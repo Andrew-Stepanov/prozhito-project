@@ -1,15 +1,25 @@
 .footer__column-link {
-  font-size: 20px;
-  line-height: 26px;
-  text-decoration: none;
-  color: #323232;
-  margin-bottom: 12px;
+    font-size: 20px;
+    line-height: 26px;
+    text-decoration: none;
+    color: #323232;
+    margin-bottom: 12px;
 }
 
 @media screen and (max-width: 768px) {
-  .footer__column-link {
-    font-size: 14px;
-    line-height: 18px;
-    margin-bottom: 8px;
+    .footer__column-link {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 8px;
+    }
   }
-}
+
+  @media screen and (max-width: 525px) {
+
+    .footer__column-link {
+      margin-bottom: 0;
+  }
+    .footer__column-link:first-of-type {
+        margin-bottom: 4px;
+    }
+  }

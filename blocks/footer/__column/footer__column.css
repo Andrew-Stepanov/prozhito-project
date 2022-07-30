@@ -1,8 +1,10 @@
 .footer__column {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
-.footer__column:last-of-type {
-  margin-right: 50px;
+@media screen and (max-width: 525px) {
+  .footer__column {
+      margin-bottom: 16px;
+  }
 }
