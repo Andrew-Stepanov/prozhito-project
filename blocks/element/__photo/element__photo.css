@@ -6,7 +6,7 @@
     margin-bottom: 20px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1020px) {
     .element__photo {
         width: 86px;
         height: 86px;

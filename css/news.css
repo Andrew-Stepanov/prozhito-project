@@ -1,0 +1,46 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__button/menu__button.css);
+@import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__button/_opened/menu__button_opened.css);
+@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__menu-element/header__menu-element.css);
+@import url(../blocks/header/__menu-element/_active/header__menu-element_active.css);
+@import url(../blocks/header/__menu-link/header__menu-link.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__submenu/header__submenu.css);
+@import url(../blocks/header/_white/header_white.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__column-link/footer__column-link.css);
+@import url(../blocks/footer/__column-link/_block/footer__column-link_block.css);
+@import url(../blocks/footer/__column-social/footer__column-social.css);
+@import url(../blocks/footer/__column/footer__column.css);
+@import url(../blocks/footer/__column/_row/footer__column_row.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__conteiner/footer__conteiner.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__social-icon/footer__social-icon.css);
+
+@import url(../blocks/logo/logo.css);
+
+@import url(../blocks/news-card/news-card.css);
+@import url(../blocks/news-card/__data-title-box/news-card__data-title-box.css);
+@import url(../blocks/news-card/__data/news-card__data.css);
+@import url(../blocks/news-card/__description/news-card__description.css);
+@import url(../blocks/news-card/__img/news-card__img.css);
+@import url(../blocks/news-card/__news-box/news-card__news-box.css);
+@import url(../blocks/news-card/__title/news-card__title.css);
+
+@import url(../blocks/news-grid/news-grid.css);
+
+@import url(../blocks/news-menu/news-menu.css);
+
+@import url(../blocks/news-pages/news-pages.css);
+@import url(../blocks/news-pages/__img/new-pages__img.css);
+
+@import url(../blocks/news-title/news-title.css);

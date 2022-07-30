@@ -1,0 +1,31 @@
+.header__menu-element {
+  display: inline-flex;
+  padding: 12px 10px;
+  margin: 0 20px 0 0;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header__menu-element:last-of-type {
+  margin: 0;
+  margin-bottom: -1px;
+}
+
+.header__menu-element:hover {
+  border-bottom: 1px solid rgba(50, 50, 50, 1);
+  margin-bottom: -1px;
+}
+
+@media screen and (max-width: 760px) {
+  .header__menu-element {
+    padding: 14px 10px;
+    min-width: 110px;
+  }
+  .header__menu-element:last-of-type {
+    margin: 0 20px 0 0;
+  }
+  .header__menu-element:hover {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+}

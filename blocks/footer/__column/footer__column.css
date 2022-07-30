@@ -3,10 +3,6 @@
     flex-direction: column;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 750009c2f00ee97d288ce8fcda4a1b95a6654a33
 @media screen and (max-width: 525px) {
   .footer__column {
       margin-bottom: 16px;
