@@ -1,0 +1,7 @@
+.new-pages__img {
+  object-fit: contain;
+}
+
+.new-pages__img:hover {
+  opacity: 0.8;
+}

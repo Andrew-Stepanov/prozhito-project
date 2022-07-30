@@ -1,5 +1,5 @@
 .element {
-    /*width: 328px;*/
+    width: 328px;
     max-height: 526px;
     background-color: #E7E4DE;
     border-radius: 8px;
@@ -10,7 +10,7 @@
     opacity: 80%;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1020px) {
     .element {
         width: 175px;
         height: 277px;
@@ -27,3 +27,4 @@
     }
   }
 
+ 
