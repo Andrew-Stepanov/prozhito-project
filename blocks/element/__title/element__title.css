@@ -1,14 +1,14 @@
 .element__title {
     margin: 0;
     margin-top: 32px;
-    font-family: "WF";
     font-style: normal;
     font-weight: 400;
     font-size: 26px;
-    line-height: 26px;
+    font-family: 'WF';
+    line-height: 100%;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1200px) {
     .element__title {
         margin-top: 12px;
         font-size: 18px;
