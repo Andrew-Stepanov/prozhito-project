@@ -9,8 +9,8 @@
     height: 526px;
     margin: 0;
     padding: 0;
-    margin-left: 20px;
     justify-content: space-between;
+    border-radius: 8px;
 }
 
 @media screen and (max-width: 1280px) {

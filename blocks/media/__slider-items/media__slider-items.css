@@ -1,4 +1,18 @@
 .media__slider-items {
     flex-direction: row;
     display: flex;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    -webkit-overflow-scrolling: touch;
+    margin-left: 20px;
+}
+
+.media__slider-items::-webkit-scrollbar {
+  height: 4px;
+  background-color: #fff;
+
+}
+
+.media__slider-items::-webkit-scrollbar-thumb {
+  background-color: #323232;
 }
