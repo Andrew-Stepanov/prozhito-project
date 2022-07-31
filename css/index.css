@@ -76,12 +76,11 @@
 @import url(../blocks/news/__btn/news__btn.css);
 @import url(../blocks/news/__btn-active/news__btn-active.css);
 @import url(../blocks/news/__buttons/news__buttons.css);
-@import url(../blocks/news/__img-container/news__img-container.css);
-@import url(../blocks/news/__subtitles/news__subtitles.css);
+@import url(../blocks/news/__subtitle-date/news__subtitle-date.css);
+@import url(../blocks/news/__subtitle-name/news__subtitle-name.css);
+
 @import url(../blocks/news/__subtitle/news__subtitle.css);
 @import url(../blocks/news/__img-kniga/news__img-kniga.css);
-@import url(../blocks/news/__img-album/news__img-album.css);
-@import url(../blocks/news/__img-festival/news__img-festival.css);
 @import url(../blocks/news/__text/news__text.css);
 @import url(../blocks/news/__slider-items/news__slider-items.css);
 @import url(../blocks/media/media.css);

@@ -10,10 +10,16 @@
     margin-right: 0px;
 }
 
+
+@media screen and (max-width: 1280px) {
+  .footer__link {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
 @media screen and (max-width: 768px) {
     .footer__link {
-        font-size: 14px;
-        line-height: 18px;
         margin-right: 60.75px;
         text-transform: uppercase;
     }

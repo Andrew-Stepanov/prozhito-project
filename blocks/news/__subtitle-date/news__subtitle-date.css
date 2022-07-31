@@ -1,0 +1,13 @@
+.news__subtitle-date
+{
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+@media screen and (max-width: 1280px) {
+  .news__subtitle-date {
+    margin-bottom: 4px;
+  }
+}
+
+

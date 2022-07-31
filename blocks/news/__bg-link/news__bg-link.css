@@ -4,7 +4,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 26px;
-    margin-right: 20px;
+    margin-right: 16px;
     max-width: 226px;
 }
 
@@ -13,12 +13,21 @@
         font-size: 14px;
         line-height: 18px;
         width: 109px;
+        margin-left: 72px;
+        margin-right: 20px;
+
     }
+}
+@media screen and (max-width: 726px) {
+  .news__bg-link {
+    margin-left: 50px;
+  }
 }
 
 @media screen and (max-width: 680px) {
     .news__bg-link {
-        width: 149px;
         color: rgba(50, 50, 50, 1);
+        margin: 0;
+        margin-right: 18px;
     }
 }

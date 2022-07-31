@@ -1,9 +1,10 @@
 .news__bg {
     background-color: #323232;
-    max-width: 477px;
+    width: 477px;
+    height: 560px;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
-    max-height: 560px;
 }
 
 @media screen and (max-width: 1280px) {
@@ -16,7 +17,7 @@
 @media screen and (max-width: 680px) {
     .news__bg {
         max-width: 336px;
-        min-height: 60px;
+        height: 60px;
         background-color: white;
     }
 }

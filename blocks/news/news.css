@@ -1,22 +1,20 @@
 .news {
     display: flex;
     flex-direction: row;
-    max-height: 560px;
     margin: 0 auto;
     justify-content: center;
 }
 
 @media screen and (max-width: 1280px) {
     .news {
-        max-height: 380px;
+        height: 380px;
     }
 }
 
 @media screen and (max-width: 680px) {
     .news {
         flex-direction: column;
-        max-height: 846px;
-        align-items: center;
         width: 336px;
+        height: 846px;
     }
 }

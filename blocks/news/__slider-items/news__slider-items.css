@@ -1,5 +1,5 @@
 .news__slider-items {
-    max-height: 443px;
+    /*height: 443px;*/
     display: flex;
     flex-direction: row;
     overflow-x: auto;
@@ -22,7 +22,7 @@
 @media screen and (max-width: 1280px) {
     .news__slider-items {
         max-width: 515px;
-        max-height: 286px;
+        height: 286px;
         margin-left: 12px;
     }
 }
@@ -30,7 +30,8 @@
 @media screen and (max-width: 680px) {
     .news__slider-items {
         flex-direction: column;
-        overflow:hidden;
-        overflow-y:hidden;
+        overflow: hidden;
+        height: 770px;
+        margin: 0;
     }
 }

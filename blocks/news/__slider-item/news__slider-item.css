@@ -1,11 +1,14 @@
 .news__slider-item {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 44px repeat(3, 1fr);
     width: 328px;
+    height: 373px;
     margin: 0;
     padding: 0;
-    margin-bottom: 96px;
     margin-left: 20px;
+    margin-bottom: 66px;
+
 }
 .news__slider-item:first-of-type {
   margin-left: 0;
@@ -15,7 +18,8 @@
 @media screen and (max-width: 1280px) {
     .news__slider-item {
         width: 180px;
-        margin-bottom: 50px;
+        margin-bottom: 46px;
+        height: 236px;
     }
 }
 
