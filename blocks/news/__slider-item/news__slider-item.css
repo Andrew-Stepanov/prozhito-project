@@ -24,10 +24,13 @@
 }
 
 @media screen and (max-width: 680px) {
-    .news__slider-item {
-        width: 336px;
-        height: 246px;
-        margin-bottom: 16px;
-        margin-left: 0;
-    }
+  .news__slider-item {
+      width: 336px;
+      height: 246px;
+      margin-bottom: 16px;
+      margin-left: 0;
+  }
+  .news__slider-item:first-of-type {
+    margin-left: 0;
+  }
 }
