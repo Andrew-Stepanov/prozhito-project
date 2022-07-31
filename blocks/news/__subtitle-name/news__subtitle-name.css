@@ -3,11 +3,3 @@
   margin: 0;
 }
 
-@media screen and (max-width: 680px) {
-  .news__subtitle-name {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 5;
-    grid-row-end: 5;
-  }
-}
