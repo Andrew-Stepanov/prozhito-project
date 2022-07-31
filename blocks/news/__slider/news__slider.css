@@ -1,26 +1,26 @@
 .news__slider {
-    height: 560px;
     display: flex;
     flex-direction: column;
-    width: 963px;
+    width: 66%;
     justify-content: flex-start;
 }
 
 @media screen and (max-width: 1336px) {
     .news__slider {
-      width: 800px;
+      width: 66%;
     }
 }
 
 @media screen and (max-width: 1280px) {
   .news__slider {
-    width: 515px;
+    width: 67%;
   }
 }
 
 @media screen and (max-width: 680px) {
     .news__slider {
       margin-top: 16px;
-
+      margin: 16px auto 0;
+      width: 100%;
     }
 }
