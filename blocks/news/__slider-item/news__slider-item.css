@@ -19,14 +19,13 @@
     .news__slider-item {
         width: 180px;
         margin-bottom: 46px;
-        height: 236px;
     }
 }
 
 @media screen and (max-width: 680px) {
   .news__slider-item {
       width: 336px;
-      height: 246px;
+      height: 296px;
       margin-bottom: 16px;
       margin-left: 0;
   }

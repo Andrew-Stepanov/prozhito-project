@@ -24,5 +24,9 @@
 }
 
 @media screen and (max-width: 680px) {
-    .diary__subtitle {}
+    .diary__subtitle {
+      width: 252px;
+      margin: 0;
+      height: 42.02px;
+    }
 }

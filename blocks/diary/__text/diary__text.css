@@ -28,5 +28,6 @@
     .diary__text {
         font-size: 12px;
         line-height: 15.54px;
+        margin: 0;
     }
 }

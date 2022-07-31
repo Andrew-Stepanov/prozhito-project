@@ -19,5 +19,9 @@
 }
 
 @media screen and (max-width: 680px) {
-    .diary__container {}
+    .diary__container {
+      margin-bottom: 24px;
+      height: 340px;
+      margin-bottom: 52px;
+    }
 }
