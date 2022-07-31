@@ -12,7 +12,7 @@
 @import url(../blocks/header/__menu-link/header__menu-link.css);
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__submenu/header__submenu.css);
-@import url(../blocks/header/_white/header_white.css);
+@import url(../blocks/header/_theme/header_theme_white.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);

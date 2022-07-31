@@ -9,3 +9,10 @@
   margin: 4.5% 0;
   padding: 0;
 }
+
+@media screen and (max-width: 680px) {
+  .news-title {
+    font-size: 18px;
+    line-height: 120%;
+  }
+}
