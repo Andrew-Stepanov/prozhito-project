@@ -23,18 +23,19 @@
 @import url(../blocks/breadcrumbs/breadcrumbs.css);
 
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__conteiner/footer__conteiner.css);
-@import url(../blocks/footer/__links/footer__links.css);
-@import url(../blocks/footer/__link/footer__link.css);
-@import url(../blocks/footer/__columns/footer__columns.css);
-@import url(../blocks/footer/__column/footer__column.css);
-@import url(../blocks/footer/__logo/footer__logo.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
-@import url(../blocks/footer/__social-icon/footer__social-icon.css);
-@import url(../blocks/footer/__column-social/footer__column-social.css);
-@import url(../blocks/footer/__column-social/_block/footer__column-social_block.css);
 @import url(../blocks/footer/__column-link/_block/footer__column-link_block.css);
+@import url(../blocks/footer/__column-social/footer__column-social.css);
+
 @import url(../blocks/footer/__column/_row/footer__column_row.css);
+@import url(../blocks/footer/__column/footer__column.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__conteiner/footer__conteiner.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__social-icon/footer__social-icon.css);
+@import url(../blocks/footer/__column/_link/footer__column_link.css);
 
 .container {
   max-width: 1440px;
