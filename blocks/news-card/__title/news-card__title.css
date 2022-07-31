@@ -8,3 +8,12 @@
   margin: 9% 0;
   padding: 0;
 }
+
+@media screen and (max-width: 680px) {
+  .news-card__title {
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0;
+    font-style: italic;
+  }
+}

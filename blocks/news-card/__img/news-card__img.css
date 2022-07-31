@@ -4,3 +4,13 @@
   height: 223px;
   object-fit: cover;
 }
+
+@media screen and (max-width: 680px) {
+  .news-card__img {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 336px;
+    height: 160px;
+    object-fit: cover;
+  }
+}

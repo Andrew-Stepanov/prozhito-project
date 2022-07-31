@@ -1,5 +1,7 @@
 .new-pages__img {
   object-fit: contain;
+  margin: 0;
+  padding: 0;
 }
 
 .new-pages__img:hover {
