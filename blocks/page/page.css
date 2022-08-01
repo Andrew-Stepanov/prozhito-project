@@ -1,0 +1,8 @@
+.page {
+  margin: 0 auto;
+  font-family: "PT Sans", "WF", sans-serif;
+  background-color: #fff;
+  min-width: 320px;
+  max-width: 1440px;
+  color: #323232;
+}

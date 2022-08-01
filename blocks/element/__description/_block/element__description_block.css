@@ -1,0 +1,15 @@
+.element__description_block {
+    display: block;
+}
+
+@media screen and (max-width: 1200px) {
+    .element__description_block {
+        display: none;
+    }
+  }
+
+  @media screen and (max-width: 440px) {
+    .element__description_block {
+        display: block;
+    }
+  }

@@ -1,0 +1,16 @@
+.journal {
+    margin: 42px auto 62px;
+}
+
+@media screen and (max-width: 1020px) {
+    .journal {
+        margin: 27px auto 24px;
+    }
+  }
+
+  @media screen and (max-width: 440px) {
+    .journal {
+        margin: 0;
+        margin-left: 12px;
+    }
+  }

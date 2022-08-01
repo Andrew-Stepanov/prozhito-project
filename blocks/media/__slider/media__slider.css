@@ -1,0 +1,13 @@
+.media__slider {
+    display: flex;
+    flex-direction: column;
+    max-width: 963px;
+    justify-content: flex-start;
+    background-color: none;
+}
+
+@media screen and (max-width: 1280px) {
+  .media__slider {
+    max-width: 515px;
+  }
+}

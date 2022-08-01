@@ -1,0 +1,17 @@
+.news-card__data {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #323232;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 680px) {
+  .news-card__data {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

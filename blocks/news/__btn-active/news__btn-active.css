@@ -1,0 +1,28 @@
+.news__btn-active {
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+    background-color: currentColor;
+    background-image: url(../../../images/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #323232;
+}
+
+@media screen and (max-width: 1280px) {
+    .news__btn-active {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .news__btn-active {
+        border: none;
+        margin-left: 18px;
+        width: 0;
+        height: 0;
+        background-image: none;
+    }
+}
+

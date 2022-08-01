@@ -1,0 +1,17 @@
+.news-card__data-title-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 680px) {
+  .news-card__data-title-box {
+    flex-direction: row;
+    justify-content: space-between;
+    grid-row-start: 10;
+    grid-row-end: 12;
+    margin: 22% 0 0;
+  }
+}

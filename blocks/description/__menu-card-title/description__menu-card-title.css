@@ -1,0 +1,28 @@
+.description__menu-card-title {
+    box-sizing: border-box;
+    text-align: left;
+    max-width: 498px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 12px;
+    font-family: 'WF';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    color: #323232;
+}
+
+@media screen and (max-width: 1280px) {
+    .description__menu-card-title {
+        font-size: 24px;
+        line-height: 29.71px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .description__menu-card-title {
+        font-size: 26px;
+        line-height: 32.19px;
+    }
+}

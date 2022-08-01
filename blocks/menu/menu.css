@@ -1,0 +1,22 @@
+.menu {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  margin: 0;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 1020px) {
+  .menu {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .menu {
+    margin-left: 12px;
+  }
+}

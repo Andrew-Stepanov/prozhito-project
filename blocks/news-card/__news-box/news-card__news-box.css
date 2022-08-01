@@ -1,0 +1,12 @@
+.news-card__news-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 680px) {
+  .news-card__news-box {
+  display: grid;
+  }
+}

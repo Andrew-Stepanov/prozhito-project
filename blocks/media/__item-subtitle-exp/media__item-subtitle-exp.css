@@ -1,0 +1,35 @@
+.media__item-subtitle-exp {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #323232;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 72px;
+    max-width: 297px;
+}
+
+@media screen and (max-width: 1280px) {
+    .media__item-subtitle-exp {
+        font-size: 12px;
+        line-height: 16px;
+        margin-left: 8px;
+        margin-top: 4px;
+        margin-bottom: 18px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .media__item-subtitle-exp {
+        font-size: 12px;
+        line-height: 16px;
+        margin-left: 8px;
+        margin-top: 12px;
+        margin-bottom: 28px;
+    }
+}

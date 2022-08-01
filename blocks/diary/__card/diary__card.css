@@ -1,0 +1,22 @@
+.diary__card {
+    display: flex;
+    background-color: #E7E4DE;
+    flex-direction: column;
+    align-items: center;
+    width: 328px;
+    min-height: 428px;
+    justify-content: flex-start;
+}
+
+@media screen and (max-width: 1280px) {
+    .diary__card {
+        width: 238px;
+        max-height: 360px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .diary__card {
+        width: 276px;
+    }
+}

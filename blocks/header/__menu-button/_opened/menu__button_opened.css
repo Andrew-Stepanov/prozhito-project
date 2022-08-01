@@ -1,0 +1,8 @@
+.header__menu-button_opened {
+  background-image: url(../../../../images/close-menu.svg);
+  background-size: auto;
+  padding: 4px;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  background-position: center;
+}

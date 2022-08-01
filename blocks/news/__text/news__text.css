@@ -1,0 +1,31 @@
+.news__text {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: rgba(50, 50, 50, 0.6);
+    margin: 0;
+    margin-top: 20px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+@media screen and (max-width: 1280px) {
+    .news__text {
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 8px;
+        color: #323232;
+    }
+}
+
+@media screen and (max-width: 680px) {
+  .news__text {
+    margin-top: 7.61px;
+    margin-bottom: 8px;
+  }
+}
+

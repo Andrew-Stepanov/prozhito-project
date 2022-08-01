@@ -1,0 +1,34 @@
+.search__title {
+    box-sizing: border-box;
+    text-align: left;
+    max-width: 678px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 32px;
+    margin-top: 56px;
+    font-family: 'WF';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    color: #323232;
+}
+
+@media screen and (max-width: 1280px) {
+    .search__title {
+        font-size: 24px;
+        line-height: 29.71px;
+        margin-bottom: 12px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .search__title {
+        font-size: 26px;
+        line-height: 26px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 16px;
+    }
+}

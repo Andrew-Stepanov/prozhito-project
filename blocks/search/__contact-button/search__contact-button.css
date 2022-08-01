@@ -1,0 +1,33 @@
+.search__contact-button {
+    width: 329px;
+    height: 60px;
+    border: none;
+    background-color: #A5CDAB;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #3A543E;
+}
+
+@media screen and (max-width: 1280px) {
+    .search__contact-button {
+        font-size: 14px;
+        line-height: 18.13px;
+        width: 237px;
+        height: 48px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .search__contact-button {
+        width: 335px;
+        height: 50px;
+        margin-bottom: 20px;
+    }
+}

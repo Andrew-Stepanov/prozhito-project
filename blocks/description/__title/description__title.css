@@ -1,0 +1,39 @@
+.description__title {
+    box-sizing: border-box;
+    text-align: left;
+    max-width: 1163px;
+    padding: 0;
+    margin: 0;
+    margin-top: 70px;
+    margin-left: 32px;
+    margin-bottom: 114px;
+    font-family: 'WF';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 120%;
+    color: #323232;
+}
+
+@media screen and (max-width: 1280px) {
+    .description__title {
+        max-width: 676px;
+        margin-top: 40px;
+        margin-left: 16px;
+        margin-bottom: 28px;
+        font-size: 30px;
+        line-height: 37.14px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .description__title {
+        max-width: 656px;
+        margin-top: 31px;
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-bottom: 93px;
+        font-size: 26px;
+        line-height: 26px;
+    }
+}

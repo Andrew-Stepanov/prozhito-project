@@ -1,0 +1,29 @@
+.special-projects__item-image-perm {
+    padding: 0;
+    margin: 0;
+    margin-right: 31.45px;
+    height: 352px;
+    min-width: 212.3px;
+    background-image: url(../../../images/blokada_perm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1280px) {
+    .special-projects__item-image-perm {
+        width: 359px;
+        min-height: 182px;
+        background-image: url(../../../images/blokada_perm2.png);
+        margin: 0;
+        background-size: contain;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .special-projects__item-image-perm {
+        width: 336px;
+        min-height: 200px;
+        background-size: cover;
+    }
+}

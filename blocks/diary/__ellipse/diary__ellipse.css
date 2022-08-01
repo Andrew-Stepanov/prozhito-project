@@ -1,0 +1,14 @@
+.diary__ellipse {
+  display: none;
+}
+
+@media screen and (max-width: 680px) {
+.diary__ellipse {
+  display: flex;
+  margin-right: 12px;
+}
+
+.diary__ellipse:last-of-type {
+  margin-right: 0;
+}
+}

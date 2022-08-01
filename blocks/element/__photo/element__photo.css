@@ -1,0 +1,16 @@
+.element__photo {
+    width: 204px;
+    height: 204px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .element__photo {
+        width: 86px;
+        height: 86px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+  }

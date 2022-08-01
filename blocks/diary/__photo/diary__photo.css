@@ -1,0 +1,19 @@
+.diary__photo {
+    width: 200px;
+    height: 223.94px;
+}
+
+@media screen and (max-width: 1280px) {
+    .diary__photo {
+        width: 173px;
+        height: 180px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .diary__photo {
+        width: 160px;
+        height: 179.95px;
+        margin-bottom: 12.02px;
+    }
+}
